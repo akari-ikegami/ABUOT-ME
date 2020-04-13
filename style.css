@@ -11,7 +11,7 @@
 }
 
 .header li{
-  margin-left: 3rem;
+  margin-left: 30px;
 }
 
 .header-img{
@@ -20,14 +20,15 @@
 
 /* 自己紹介 */
 h1{
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
+  margin-top: 100px;
 }
 
 .self-img{
   border-radius: 300px;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .main-contents{
@@ -37,9 +38,21 @@ h1{
 }
 
 .img-intro{
-  width: 35%;
+  margin: 8rem 5rem 0 30rem;
 }
 
 .intro{
-  width: 60%;
+  width: 50%;
+  margin-top: 10rem;
+  line-height: 3rem;
+}
+
+.text-intro{
+  text-align: center;
+}
+
+.text{
+  display: inline-block;
+  text-align: left;
+  line-height: 2rem;
 }
