@@ -97,3 +97,32 @@ font-family:comfortaa;font-weight:bold}
 .borderless{
   padding: 80px;
 }
+
+.balloon-line{
+  position: relative;
+  width: 300px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background: #FFF;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.balloon-line:before, .balloon-line:after{
+  content: "";
+  border: 14px solid transparent;
+  position: absolute;
+  left: 50%;
+  margin-left: -14px;
+}
+
+.balloon-line:before{
+  border-top-color: #ddd;
+  bottom: -28px;
+}
+
+.balloon-line:after{
+  border-top-color: #FFF;
+  bottom: -27px;
+}
