@@ -17,6 +17,10 @@
   font-family: 'Abel', sans-serif;
 }
 
+.header a{
+  color: #353535;
+}
+
 .header-img{
  width: 100%;
 }
