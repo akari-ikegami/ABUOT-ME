@@ -21,6 +21,27 @@
  width: 100%;
 }
 
+/* topへ戻る */
+.scroll-top{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 100;
+  background-color: rgb(37, 37, 37);
+  opacity: .8;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  color: #FFF;
+  outline: none;
+}
+
+.scroll-top:hover{
+  cursor: pointer;
+}
+
+
 /* 自己紹介 */
 h1{
   font-size: 100px;
